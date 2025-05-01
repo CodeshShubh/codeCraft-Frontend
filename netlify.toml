@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "build" # or "dist" if using Vite or similar
+
+[build.environment]
+  NPM_FLAGS = "--legacy-peer-deps"
