@@ -19,5 +19,5 @@ export const store = configureStore({
 });
 
 
-export const server = 'http://localhost:4000';
+export const server = 'https://codecraft-backend-i8t5.onrender.com';
  
